@@ -8,6 +8,7 @@ import UseRef from "./UseRef/UseRef";
 import UseContext from "./UseContext/UseContext";
 import UseReducer from "./UseReducer/UseReducer";
 import UseLayoutEffect from "./UseLayoutEffect/UseLayoutEffect";
+import UseImperativeHandle from "./UseImperativeHandle/UseImperativeHandle";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
-      <UseLayoutEffect />
+      {/* <UseLayoutEffect /> */}
+      <UseImperativeHandle />
     </div>
   );
 }
