@@ -9,6 +9,7 @@ import UseContext from "./UseContext/UseContext";
 import UseReducer from "./UseReducer/UseReducer";
 import UseLayoutEffect from "./UseLayoutEffect/UseLayoutEffect";
 import UseImperativeHandle from "./UseImperativeHandle/UseImperativeHandle";
+import UseCustomHook from "./UseCustomHook/UseCustomHook";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
       {/* <UseLayoutEffect /> */}
-      <UseImperativeHandle />
+      {/* <UseImperativeHandle /> */}
+      <UseCustomHook />
     </div>
   );
 }
