@@ -1,5 +1,5 @@
 /*  useLayoutEffect and useEffect have the same signature 
-    before we will take about the difference. Let's find out what is 
+    before we will talk about the difference. Let's find out what is 
     really happened when state is changed
     1. user perform an action such as clicks the button
     2. React updates the count state variable
