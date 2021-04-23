@@ -9,6 +9,12 @@
    for example, if the component is unmounted, value in ref will still existed but if you
    use setState() in useState() it can't be set the value because the component is unmounted. 
    class-based component - use React.createRef()
+
+   ---caution---
+   when we use state to manipulate the element, that component is called "controlled component"
+   which means you use React to control that element.
+   but if you use Ref, it will connect to the HTML element (real DOM) - This is called "uncontrolled component"
+   which means it doesn't use React to control.
 */
 import React, { useRef, useEffect } from "react";
 
